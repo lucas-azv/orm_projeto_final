@@ -74,3 +74,40 @@
 [Representante] 1—1 [Endereço]
 [Funcionário] n—1 [Cargo]
 [Cliente] 1—1 [Endereço]
+
+# API Endpoints
+
+## 1. Representante 🏣
+- **GET /representantes**: Retorna uma lista de todos os representantes.
+- **GET /representantes/{id}**: Retorna um representante específico com base no `id`.
+- **POST /representantes**: Cria um novo representante.
+- **PUT /representantes/{id}**: Atualiza um representante existente.
+- **DELETE /representantes/{id}**: Deleta um representante existente.
+
+## 2. Funcionário 🙍🏼
+- **GET /funcionarios**: Retorna uma lista de todos os funcionários.
+- **GET /funcionarios/{id}**: Retorna um funcionário específico com base no `id`.
+- **POST /funcionarios**: Cria um novo funcionário.
+- **PUT /funcionarios/{id}**: Atualiza um funcionário existente.
+- **DELETE /funcionarios/{id}**: Deleta um funcionário existente.
+
+## 3. Cliente 👩🏼‍🦰
+- **GET /clientes**: Retorna uma lista de todos os clientes.
+- **GET /clientes/{id}**: Retorna um cliente específico com base no `id`.
+- **POST /clientes**: Cria um novo cliente.
+- **PUT /clientes/{id}**: Atualiza um cliente existente.
+- **DELETE /clientes/{id}**: Deleta um cliente existente.
+
+## 4. Cargo 🌟
+- **GET /cargos**: Retorna uma lista de todos os cargos.
+- **GET /cargos/{id}**: Retorna um cargo específico com base no `id`.
+- **POST /cargos**: Cria um novo cargo.
+- **PUT /cargos/{id}**: Atualiza um cargo existente.
+- **DELETE /cargos/{id}**: Deleta um cargo existente.
+
+## 5. Endereço ✉️
+- **GET /enderecos**: Retorna uma lista de todos os endereços.
+- **GET /enderecos/{id}**: Retorna um endereço específico com base no `id`.
+- **POST /enderecos**: Cria um novo endereço.
+- **PUT /enderecos/{id}**: Atualiza um endereço existente.
+- **DELETE /enderecos/{id}**: Deleta um endereço existente.
