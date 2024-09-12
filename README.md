@@ -74,7 +74,7 @@
 [Representante] 1—1 [Endereço]
 [Funcionário] n—1 [Cargo]
 [Cliente] 1—1 [Endereço]
-
+```
 # API Endpoints
 
 ## 1. Representante 🏣
