@@ -12,7 +12,7 @@
 - [Modelo Entidade-Relacionamento (MER)](#modelo-entidade-relacionamento-mer)
   - [Entidades e Relacionamentos](#entidades-e-relacionamentos)
   - [Diagrama Conceitual](#diagrama-conceitual)
-- [Diagrama UML](#diagrama-uml-🧾)
+- [Diagrama UML 🧾](#diagrama-uml-🧾)
 - [API Endpoints](#api-endpoints)
   - [1. Representante](#1-representante-🏣)
   - [2. Funcionário](#2-funcionário-🙍🏼)
