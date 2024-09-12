@@ -1,5 +1,24 @@
 # Detalhamento de Requisitos Peleja Representações
 
+## Índice
+- [Entidades](#entidades)
+  - [1. Representante](#1-representante)
+  - [2. Endereço](#2-endereço)
+  - [3. Representados](#3-representados)
+  - [4. Funcionário](#4-funcionário)
+  - [5. Cargo](#5-cargo)
+  - [6. Cliente](#6-cliente)
+- [Funcionalidades](#funcionalidades)
+- [Modelo Entidade-Relacionamento (MER)](#modelo-entidade-relacionamento-mer)
+  - [Entidades e Relacionamentos](#entidades-e-relacionamentos)
+  - [Diagrama Conceitual](#diagrama-conceitual)
+- [API Endpoints](#api-endpoints)
+  - [1. Representante](#1-representante-🏣)
+  - [2. Funcionário](#2-funcionário-🙍🏼)
+  - [3. Cliente](#3-cliente-👩🏼‍🦰)
+  - [4. Cargo](#4-cargo-🌟)
+  - [5. Endereço](#5-endereço-✉️)
+
 ## Entidades
 
 ### 1. Representante
