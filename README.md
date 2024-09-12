@@ -12,6 +12,7 @@
 - [Modelo Entidade-Relacionamento (MER)](#modelo-entidade-relacionamento-mer)
   - [Entidades e Relacionamentos](#entidades-e-relacionamentos)
   - [Diagrama Conceitual](#diagrama-conceitual)
+-[Diagrama UML](#diagrama-uml-🧾)
 - [API Endpoints](#api-endpoints)
   - [1. Representante](#1-representante-🏣)
   - [2. Funcionário](#2-funcionário-🙍🏼)
@@ -94,6 +95,9 @@
 [Funcionário] n—1 [Cargo]
 [Cliente] 1—1 [Endereço]
 ```
+# Diagrama UML 🧾
+![Diagrama](modelo-relacional.png)
+
 # API Endpoints
 
 ## 1. Representante 🏣
@@ -130,3 +134,5 @@
 - **POST /enderecos**: Cria um novo endereço.
 - **PUT /enderecos/{id}**: Atualiza um endereço existente.
 - **DELETE /enderecos/{id}**: Deleta um endereço existente.
+
+
