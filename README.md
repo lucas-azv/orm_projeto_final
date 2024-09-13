@@ -135,4 +135,11 @@
 - **PUT /enderecos/{id}**: Atualiza um endereço existente.
 - **DELETE /enderecos/{id}**: Deleta um endereço existente.
 
+## 6. Representados 📋
+- **GET /representados**: Retorna uma lista de todos os representados.
+- **GET /representados/{id}**: Retorna um representado específico com base no `id`.
+- **POST /representados**: Cria um novo representado.
+- **PUT /representados/{id}**: Atualiza um representado existente.
+- **DELETE /representados/{id}**: Deleta um representado existente.
+
 
