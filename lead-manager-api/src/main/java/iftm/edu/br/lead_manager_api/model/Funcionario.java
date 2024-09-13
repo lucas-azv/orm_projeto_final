@@ -39,6 +39,5 @@ public class Funcionario {
     @JoinColumn(name = "representante_id")
     private Representante representante;
 
-    // Getters and Setters
 }
 
