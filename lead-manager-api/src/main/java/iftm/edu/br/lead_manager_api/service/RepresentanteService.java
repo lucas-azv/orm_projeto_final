@@ -5,6 +5,8 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
+import javax.management.RuntimeErrorException;
+
 import org.springframework.stereotype.Service;
 
 import iftm.edu.br.lead_manager_api.model.Representante;
@@ -35,6 +37,18 @@ public class RepresentanteService {
             return object.get();
         } else {
             return null;
+        }
+    }
+
+    public Optional<Representante> findByCnpj(String cnpj) throws Exception {
+        try {
+            if (cnpj.length() == 14) {
+                return repository.findByCnpj(cnpj);
+            } else {
+                throw new IllegalArgumentException("CNPJ inválido. Deve ter 14 dígitos.");
+            }
+        } catch (Exception e) {
+            throw new Exception("Erro ao buscar representante por CNPJ: " + e.getMessage(), e);
         }
     }
 
